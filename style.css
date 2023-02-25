@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #E8E9EB;
+    padding: 0 20rem;
+}
+
+/* setarea fontului si dimensiunii titlului */
+.title{
+    text-align: center;
+    padding: 1rem 0;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #313638;
+}
+
+/* setarea fontului si dimensiunii paragrafului */
+.container{
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    place-items: center;
+    background-color: #E4B363;
+    padding: 2rem 5rem;
+    border-radius: 50px;
+    grid-gap: 1rem;
+    
+}
+
+/* setarea pozitionarii canvasurilor */
+.canvases
+{   
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-gap: 4rem;
+    place-items: center;
+}
+
+/* setarea dimensiunii canvasurilor */
+canvas{
+    border: 3px solid #000;
+    display: grid;
+    place-items: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* setarea pozitionarii butonului */
+.btn
+{
+    display: grid;
+    place-items: center;
+    padding: 0.5rem 1rem;
+    font-size: 2rem;
+    scale: 1.5;
+}
+
+/* setarea fontului si dimensiunii butonului*/
+button{
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* setarea fontului si dimensiunii pentru afisarea timpuli de executie */
+#time
+{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 0.5rem 0;
+}

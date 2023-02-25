@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "style.css" />
+        <title>Power-Law Image Processing</title>
+    </head>
+        
+    <body>
+        <!-- titlu pagina -->
+        <p class = "title">Power-Law Gray Level Transform</p>
+        
+        <!-- div ce contine elementele paginii -->
+        <div class = "container">
+            <!-- canvasurile pentru procesarea imaginii -->
+            <div class = "canvases">
+                <canvas id = "before_canvas"></canvas>
+                <canvas id = "after_canvas"></canvas>
+            </div>
+
+            <!-- buton pentru procesarea imaginii -->
+            <div class = "btn">
+                <button onclick="generateImage()">Get image</button>
+            </div>
+
+            <!-- div pentru afisarea timpului de executie -->
+            <div>
+                <p id = "time"></p>
+            </div>
+
+            <!-- tag pentru fisierul javascript -->
+            <script type = "text/javascript" src = "script.js" ></script>
+        </div>
+    
+    </body>
+</html>
+
+
